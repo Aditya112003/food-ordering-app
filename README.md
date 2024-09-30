@@ -21,7 +21,7 @@ The application uses a dummy payment gateway to simulate the payment process, en
 - **Shopping Cart Management**: Add, remove, and modify items in the cart before proceeding to checkout.
 - **Dummy Payment Gateway**: Experience a complete payment flow using a simulated payment gateway.
 - **Order History**: View past orders with detailed information about items and totals.
-- **Admin Features**: Admins can create, edit, and delete their own menu items. No other admins can edit or view another admin's menu items.
+- **Admin Features**: Admins can create, edit, and delete their own menu items. No other admins can edit or view another admin's menu items. Admins can also create new categories for their menu items and Admins can also see the other users details.
 - **Responsive Design**: The application is designed to work seamlessly on both desktop and mobile devices.
 
 ## Technologies Used
@@ -44,7 +44,8 @@ The application uses a dummy payment gateway to simulate the payment process, en
   - **React Icons**: For using icons in the UI.
   - **Date-fns**: For date manipulation.
   - **Bcrypt.js**: For password hashing.
-  - **AWS SDK**: For integrating with AWS services (if applicable).
+  - **Cloudinary**: For handling image uploads.
+  - **Google Cloud console**: (OAuth) For handling authentication with NextAuth.
 
 - **Development Tools**:
   - **ESLint**: For linting and ensuring code quality.
@@ -86,7 +87,7 @@ To get started with the **OvenFresh** food ordering app, follow these steps:
 2.**Navigate to the project directory**:
 
 ```
-cd food-ordering-app
+cd food-ordering-app 
 ```
 
  3.**Install the dependencies**:
@@ -103,11 +104,13 @@ npm install
  SECRET = your_secret
  GOOGLE_CLIENT_ID = your_google_client_id
  GOOGLE_CLIENT_SECRET = your_google_client_secret
- MY_AWS_ACCESS_KEY = your_aws_access_key
- MY_AWS_SECRET_KEY = your_aws_secret_key
+ CLOUDINARY_CLOUD_NAME = your_cloudinary_cloud_name
+ CLOUDINARY_API_KEY = your_cloudinary_api_key
+ CLOUDINARY_API_SECRET = your_cloudinary_api_secret
 ```
 
 5. **Run the development server**:
+
 ```
 npm run dev
 ```
