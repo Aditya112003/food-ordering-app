@@ -2,7 +2,7 @@
 
 ## Overview
 
-**OvenFresh** is an online food ordering platform designed for users to browse, select, and order their favorite pizzas, salads, and desserts. Built with the **MERN (Next.js) ** stack, this project integrates a seamless UI with powerful backend features, allowing users to easily customize their orders, manage their cart, and make payments.
+**OvenFresh** is an online food ordering platform designed for users to browse, select, and order their favorite pizzas, salads, and desserts. Built with the **Next.js **, this project integrates a seamless UI with powerful backend features, allowing users to easily customize their orders, manage their cart, and make payments.
 
 The application uses a dummy payment gateway to simulate the payment process, enabling users to experience a full checkout flow without handling real transactions.
 
